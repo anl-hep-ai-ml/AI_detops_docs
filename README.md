@@ -1,6 +1,6 @@
 # Project Documentation
 
-Welcome to the public documentation for the Cross-Experimental Effort at Argonne National Laboratory.
+Welcome to the public documentation for the Cross-Experimental AI for Operations Effort at Argonne National Laboratory.
 
 ## Overview
 
