@@ -1,14 +1,16 @@
-# Project Overview
+# AI for Detector Operations
 
-This documentation provides public information about the cross-experimental AI for operaations effort at Argonne National Laboratory.
+Cross-experimental AI for operations at [Argonne National Laboratory](https://www.anl.gov/). This project applies machine learning to operational time-series data from large-scale physics and astrophysics experiments, with the goals of real-time hardware fault detection and model-agnostic new physics searches.
 
-## Goals
+## Sections
 
-- Facilitate collaboration between experimental teams
-- Share best practices and resources
-- Document public-facing results and updates
+| Section | Description |
+|---|---|
+| [What is AD?](what_is_ad/index.md) | High-level overview of anomaly detection and the methods used in this project |
+| [Experiments](experiments/index.md) | Per-experiment summaries covering detector context and data characteristics |
+| [Benchmarks](benchmarks/index.md) | Results on public benchmark datasets used to evaluate and compare methods |
 
-## Resources
-
-- [Argonne National Laboratory](https://www.anl.gov/)
-- [DOE Office of Science](https://science.osti.gov/)
+<div class="logo-bar">
+  <img src="assets/logo/argonne.png" alt="Argonne National Laboratory">
+  <img src="assets/logo/doe.png" alt="U.S. Department of Energy">
+</div>
