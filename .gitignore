@@ -1,0 +1,17 @@
+# Zensical build output and cache
+site/
+.cache/
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/

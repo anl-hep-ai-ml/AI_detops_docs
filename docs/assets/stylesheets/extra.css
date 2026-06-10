@@ -1,0 +1,57 @@
+/* ── Logo in header ──────────────────────────────────────────── */
+.md-header__button.md-logo img {
+  height: 1.8rem;
+  width: auto;
+}
+
+/* ── Admonition borders ──────────────────────────────────────── */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+}
+
+/* ── Home page logos ─────────────────────────────────────────── */
+.logo-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  margin: 2rem 0 1rem 0;
+}
+
+.logo-bar img {
+  height: 3rem;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ── Footer logos ────────────────────────────────────────────── */
+.footer-logos {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: auto;
+}
+
+.footer-logos img {
+  height: 1.2rem;
+  width: auto;
+  opacity: 0.85;
+}
+
+/* Argonne logo is black — invert it in dark mode */
+[data-md-color-scheme="slate"] .footer-logos img[alt="Argonne National Laboratory"],
+[data-md-color-scheme="slate"] .logo-bar img[alt="Argonne National Laboratory"],
+[data-md-color-scheme="slate"] .md-header__button.md-logo img {
+  filter: invert(1) brightness(1.2);
+}
+
+/* ── Content images centred and capped in width ──────────────── */
+.md-content img:not(.logo-bar img) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  height: auto;
+}

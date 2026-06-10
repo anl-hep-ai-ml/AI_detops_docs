@@ -1,0 +1,89 @@
+[project]
+site_name = "AI for Detector Operations"
+site_description = "Cross-experimental AI for operations — Argonne National Laboratory"
+site_author = "Argonne National Laboratory"
+site_url = "https://anl-hep-ai-ml.github.io/AI_detops_docs/"
+copyright = "Copyright &copy; 2026 Argonne National Laboratory"
+
+nav = [
+  { "Home" = "index.md" },
+  { "What is AD?" = [
+    { "What is AD?" = "what_is_ad/index.md" },
+    { "Transformer-based AD" = "what_is_ad/transformer_ad.md" },
+    { "Baseline Methods" = "what_is_ad/baselines.md" },
+  ]},
+  { "Experiments" = [
+    { "Experiments" = "experiments/index.md" },
+    { "ATLAS" = "experiments/atlas.md" },
+    { "Muon g-2" = "experiments/muon_gm2.md" },
+    { "SPT-3G" = "experiments/spt.md" },
+    { "DUNE" = "experiments/dune.md" },
+  ]},
+  { "Benchmarks" = [
+    { "Benchmarks" = "benchmarks/index.md" },
+    { "SMAP" = "benchmarks/smap.md" },
+    { "MSL" = "benchmarks/msl.md" },
+    { "SMD" = "benchmarks/smd.md" },
+    { "SWAT" = "benchmarks/swat.md" },
+  ]},
+]
+
+repo_url = "https://github.com/anl-hep-ai-ml/AI_detops_docs"
+repo_name = "anl-hep-ai-ml/AI_detops_docs"
+edit_uri = "edit/main/docs/"
+
+extra_css = [
+  "assets/stylesheets/extra.css",
+]
+
+extra_javascript = [
+  "assets/javascripts/mathjax.js",
+  "assets/javascripts/footer_logos.js",
+  "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js",
+]
+
+[project.theme]
+logo = "assets/logo/argonne.png"
+language = "en"
+features = [
+  "content.action.edit",
+  "content.code.copy",
+  "content.code.select",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+]
+
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.toc]
+permalink = true
+toc_depth = 4
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
