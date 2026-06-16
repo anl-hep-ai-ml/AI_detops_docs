@@ -15,7 +15,7 @@ The main model used is **TranAD** (Tuli et al., VLDB 2022), a deep transformer n
 - Incorporates adversarial training to amplify anomaly scores and improve sensitivity
 - Supports meta-learning (MAML) for fast adaptation with limited labelled data
 
-TranAD was originally benchmarked on datasets including SMAP, MSL, SMD, and SWAT, where it achieves state-of-the-art F1 scores. See the [Benchmarks](../benchmarks/index.md) section for results.
+TranAD was originally benchmarked on datasets including SMAP, MSL, SMD, and SWAT, where it achieves state-of-the-art F1 scores.
 
 !!! note "More detail coming"
     A full technical breakdown of the TranAD architecture, loss functions, and training procedure will be added here once the framework is validated on experimental data.
