@@ -28,7 +28,7 @@ nav = [
   ]},
   { "Meeting Notes" = [
     { "Meeting Notes" = "meeting_notes/index.md" },
-    { "Hardware-Aware AI Hackathon – June 15, 2026" = "meeting_notes/20260615_hackathon/hardware_aware_ai_hackathon.md" },
+    { "Hardware-Aware AI Hackathon – June 15, 2026" = "meeting_notes/20260615_hackathon/index.md" },
   ]},
 ]
 
