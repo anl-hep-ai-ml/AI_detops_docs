@@ -48,6 +48,10 @@ extra_javascript = [
 
 [project.theme]
 logo = "assets/logo/argonne.png"
+# JetBrains Mono (not the default Roboto Mono) — it covers the box-drawing,
+# block-element, and geometric glyphs used in the ASCII diagrams.
+font.text = "Roboto"
+font.code = "JetBrains Mono"
 language = "en"
 features = [
   "content.action.edit",
