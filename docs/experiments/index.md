@@ -4,7 +4,8 @@ This project is cross-experimental, applying a shared anomaly detection framewor
 
 | Experiment | Facility | Data Type | Status |
 |---|---|---|---|
-| [ATLAS](atlas.md) | CERN LHC | HLT time-series, trigger rates | Active |
+| [ATLAS](atlas.md) | CERN LHC | HLT time-series, trigger rates | In progress |
+| [CMS](cms.md) | CERN LHC | DQM monitoring quantities | In progress |
 | [Muon g-2](muon_gm2.md) | Fermilab | Calorimeter ring channels | In progress |
 | [SPT-3G](spt.md) | South Pole | Bolometer time-streams | In progress |
 | [DUNE](dune.md) | Fermilab / SURF | PDS waveforms | In progress |

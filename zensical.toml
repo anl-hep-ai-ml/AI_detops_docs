@@ -7,25 +7,26 @@ copyright = "Copyright &copy; 2026 Argonne National Laboratory"
 
 nav = [
   { "Home" = "index.md" },
+  { "Experiments" = [
+    { "Experiments" = "experiments/index.md" },
+    { "ATLAS" = "experiments/atlas.md" },
+    { "CMS" = "experiments/cms.md" },
+    { "Muon g-2" = "experiments/muon_gm2.md" },
+    { "SPT-3G" = "experiments/spt.md" },
+    { "DUNE" = "experiments/dune.md" },
+  ]},
   { "What is AD?" = [
     { "What is AD?" = "what_is_ad/index.md" },
     { "Transformer-based AD" = "what_is_ad/transformer_ad.md" },
     { "Baseline Methods" = "what_is_ad/baselines.md" },
   ]},
-  { "Experiments" = [
-    { "Experiments" = "experiments/index.md" },
-    { "ATLAS" = "experiments/atlas.md" },
-    { "Muon g-2" = "experiments/muon_gm2.md" },
-    { "SPT-3G" = "experiments/spt.md" },
-    { "DUNE" = "experiments/dune.md" },
+  { "What is Agentic AI?" = [
+    { "What is Agentic AI?" = "what_is_agentic_ai/index.md" },
+    { "RAG" = "what_is_agentic_ai/rag.md" },
+    { "MCP Servers" = "what_is_agentic_ai/mcp_servers.md" },
+    { "Agentic Frameworks" = "what_is_agentic_ai/agentic_frameworks.md" },
   ]},
-  { "Benchmarks" = [
-    { "Benchmarks" = "benchmarks/index.md" },
-    { "SMAP" = "benchmarks/smap.md" },
-    { "MSL" = "benchmarks/msl.md" },
-    { "SMD" = "benchmarks/smd.md" },
-    { "SWAT" = "benchmarks/swat.md" },
-  ]},
+  { "Meeting Notes" = "meeting_notes/index.md" },
 ]
 
 repo_url = "https://github.com/anl-hep-ai-ml/AI_detops_docs"
