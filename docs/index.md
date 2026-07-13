@@ -9,6 +9,7 @@ Cross-experimental AI for operations at [Argonne National Laboratory](https://ww
 | [Experiments](experiments/index.md) | Per-experiment summaries covering detector context and data characteristics |
 | [What is AD?](what_is_ad/index.md) | High-level overview of anomaly detection and the methods used in this project |
 | [What is Agentic AI?](what_is_agentic_ai/index.md) | Introduction to agentic AI concepts including RAG, MCP servers, and agentic frameworks |
+| [Technical Docs](technical_docs/index.md) | Reference documentation for shared technical components and implementation details |
 | [Meeting Notes](meeting_notes/index.md) | Links to previous meeting notes |
 
 <div class="logo-bar">

@@ -19,8 +19,10 @@ All PRs are built automatically by GitHub Actions. The deployment to GitHub Page
 | Content type | Location |
 |---|---|
 | Anomaly detection concepts, methods, or models | `docs/what_is_ad/` |
+| Agentic AI concepts, tooling, or workflows | `docs/what_is_agentic_ai/` |
 | Experiment-specific context or results | `docs/experiments/` |
-| Benchmark dataset descriptions or results | `docs/benchmarks/` |
+| Shared technical reference or implementation docs | `docs/technical_docs/` |
+| Meeting or event notes | `docs/meeting_notes/` |
 | Static images or figures | `docs/assets/<topic>/` |
 
 **New pages must be added to `nav` in `zensical.toml`** or they will build but won't appear in the site navigation.

@@ -19,17 +19,21 @@ AI_detops_docs/
 │   │   ├── stylesheets/    # custom CSS
 │   │   └── javascripts/    # MathJax config and footer logo injection
 │   ├── what_is_ad/         # anomaly detection overview and method documentation
+│   ├── what_is_agentic_ai/ # agentic AI concepts, RAG, MCP, and frameworks
 │   ├── experiments/        # per-experiment summaries (ATLAS, Muon g-2, SPT-3G, DUNE)
-│   └── benchmarks/         # public benchmark dataset descriptions and results
+│   ├── technical_docs/     # shared technical reference pages such as BaseDataset
+│   └── meeting_notes/      # dated meeting and event notes
 ├── requirements.txt        # pinned Python dependencies
 └── zensical.toml           # site config: nav, theme, markdown extensions
 ```
 
-Content is organised into three areas:
+Content is organised into five areas:
 
 - **`what_is_ad/`** — high-level anomaly detection concepts, the transformer-based approach, and a baseline methods reference.
+- **`what_is_agentic_ai/`** — agentic AI concepts including RAG, MCP servers, and framework comparisons.
 - **`experiments/`** — one page per experiment covering detector context, data characteristics, and the AD application.
-- **`benchmarks/`** — public benchmark datasets (SMAP, MSL, SMD, SWAT) with dataset statistics and results tables.
+- **`technical_docs/`** — shared implementation and reference documentation such as `BaseDataset`.
+- **`meeting_notes/`** — dated notes from meetings, workshops, and hackathons.
 
 ---
 

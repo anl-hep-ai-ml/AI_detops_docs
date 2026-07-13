@@ -26,6 +26,10 @@ nav = [
     { "MCP Servers" = "what_is_agentic_ai/mcp_servers.md" },
     { "Agentic Frameworks" = "what_is_agentic_ai/agentic_frameworks.md" },
   ]},
+  { "Technical Docs" = [
+    { "Technical Docs" = "technical_docs/index.md" },
+    { "BaseDataset" = "technical_docs/base_dataset.md" },
+  ]},
   { "Meeting Notes" = [
     { "Meeting Notes" = "meeting_notes/index.md" },
     { "Hardware-Aware AI Hackathon – June 15, 2026" = "meeting_notes/20260615_hackathon/index.md" },
