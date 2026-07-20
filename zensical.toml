@@ -29,6 +29,7 @@ nav = [
   { "Technical Docs" = [
     { "Technical Docs" = "technical_docs/index.md" },
     { "BaseDataset" = "technical_docs/base_dataset.md" },
+    { "YAML-Driven Preprocessing" = "technical_docs/yaml_driven_preprocessing.md" },
   ]},
   { "Meeting Notes" = [
     { "Meeting Notes" = "meeting_notes/index.md" },
