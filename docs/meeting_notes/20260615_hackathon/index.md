@@ -6,13 +6,14 @@
 
 ---
 
-## Presentation Notes
+## Pages
 
-!!! tip "Jump to notes"
-    - [**ATOM: Anomaly-detection on Time-series for Operation Monitoring**](Joaquin_Atom_Notes.md) — Joaquin Hoya & Walter Hopkins
-    - [**Multi-Agent Systems for Scientific Analysis**](Azton_Agentic_Notes.md) — Azton Wells
-    - [**CMS Next-Gen DQM: WisDQM & DQM Vision**](CMS_DQM_Notes.md) — Gabriele Benelli et al.
-    - [**Anomaly Detection on SPT Observation Data**](SPT_Anomaly_Notes.md) — JJ & Wei
+| Page | Presenter(s) |
+|---|---|
+| [ATOM: Anomaly-detection on Time-series for Operation Monitoring](Joaquin_Atom_Notes.md) | Joaquin Hoya & Walter Hopkins |
+| [Multi-Agent Systems for Scientific Analysis](Azton_Agentic_Notes.md) | Azton Wells |
+| [CMS Next-Gen DQM: WisDQM & DQM Vision](CMS_DQM_Notes.md) | Gabriele Benelli et al. |
+| [Anomaly Detection on SPT Observation Data](SPT_Anomaly_Notes.md) | JJ & Wei |
 
 ---
 
