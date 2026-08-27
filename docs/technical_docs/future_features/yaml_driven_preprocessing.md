@@ -2,7 +2,7 @@
 
 Reference notes for a preprocessing pipeline whose execution order is defined in YAML and resolved to Python callables at runtime.
 
-This page summarizes the design pattern discussed in `yaml_driven_preprocessing.md` and maps it onto the current `PreprocessingPipeline` and `config_loader.py` implementation.
+This page summarizes a YAML-driven preprocessing design pattern and maps it onto the current `PreprocessingPipeline` and `config_loader.py` implementation.
 
 ## Quick Start
 

@@ -4,8 +4,8 @@ This project is cross-experimental, applying a shared anomaly detection framewor
 
 | Experiment | Facility | Data Type | Status |
 |---|---|---|---|
-| [ATLAS](atlas.md) | CERN LHC | HLT time-series, trigger rates | In progress |
-| [CMS](cms.md) | CERN LHC | DQM monitoring quantities | In progress |
-| [Muon g-2](muon_gm2.md) | Fermilab | Calorimeter ring channels | In progress |
-| [SPT-3G](spt.md) | South Pole | Bolometer time-streams | In progress |
-| [DUNE](dune.md) | Fermilab / SURF | PDS waveforms | In progress |
+| [SPT-3G](spt/index.md) | South Pole | Bolometer calibrator-response streams | Documented |
+| [ATLAS](atlas/index.md) | CERN LHC | HLT time-series, trigger rates | In progress |
+| [Muon g-2](muon_gm2/index.md) | Fermilab | Per-station ring channels | In progress |
+
+Each experiment applies the same shared pipeline described in the [Methodology](../overview/methodology/index.md); only the data loading and preprocessing differ. SPT-3G is the most fully documented; ATLAS and Muon g-2 pages are being filled in.
