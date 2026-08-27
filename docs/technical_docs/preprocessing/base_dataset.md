@@ -42,6 +42,40 @@ Most subclasses keep this structure and override only one or two steps.
 | 6 | `_apply_baseline()` | Removes offset or baseline structure and may store fitted baseline state | Scaling should usually be fit on corrected signals |
 | 7 | `_apply_scaling()` / `scale_impl(raw)` | Fits or applies scaling, produces `self.data`, and may clip values | Scaling should see the final modeling input distribution |
 
+## Baseline and Scaling Policy
+
+Baseline removal and scaling are shared across all dataset families. Their knobs come from the `policy` block of the family YAML and are documented here so experiment pages can reference them instead of repeating them.
+
+### Baseline removal
+
+Baseline removal subtracts slow structure from each channel before scaling. It is controlled by:
+
+| Setting | Meaning |
+|---|---|
+| `baseline_enable` | Whether baseline removal runs at all |
+| `baseline_type` | `constant` for a single offset, or a time-dependent (rolling) baseline |
+| `baseline_axis` | Which axis the offset is estimated over, such as `per_channel_time_mean`, `per_file_channel_time_mean`, `per_time_channel_mean`, `per_time_group_mean`, or `per_feature_global` |
+| `baseline_stat` | `mean` or `median` estimator |
+| `baseline_mode` | `per_channel` or grouped estimation |
+| `baseline_window`, `baseline_stride` | Window and stride for the rolling (time-dependent) baseline |
+
+The math lives in `src/anldq/datasets/process/offset_remove.py` (constant offset) and the rolling-median filter in `src/anldq/datasets/process/median_filter.py`.
+
+### Scaling
+
+Scaling produces the final `self.data`. It is controlled by:
+
+| Setting | Meaning |
+|---|---|
+| `scaling_type` | `standard`, `minmax`, `robust`, or `none` |
+| `scaling_mode` | `per_dim` or `per_channel` |
+| `scaling_source` | How fitted state is shared across splits: `train_set_fit`, `per_set_fit`, `per_file_fit`, `per_run_fit`, or `rolling` |
+| `auto_scale` | Whether the scaler type is auto-selected from the data |
+
+`scaling_source="train_set_fit"` is the common default: the scaler is fit on the train split and reused on validation and test. This fit-and-reuse behavior is orchestrated by `src/anldq/datasets/builder.py` (`build_data_splits`). The scaling implementations live in `src/anldq/datasets/process/scale.py`.
+
+A dataset subclass can override `scale_impl()` to replace the scaler entirely while still honoring `scaling_source` (SPT does this — see [SPT Preprocessing](../../experiments/spt/preprocessing.md)).
+
 ## Core Attributes
 
 | Group | Attributes | Meaning |

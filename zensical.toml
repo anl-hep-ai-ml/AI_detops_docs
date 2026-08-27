@@ -7,33 +7,85 @@ copyright = "Copyright &copy; 2026 Argonne National Laboratory"
 
 nav = [
   { "Home" = "index.md" },
-  { "Experiments" = [
-    { "Experiments" = "experiments/index.md" },
-    { "ATLAS" = "experiments/atlas.md" },
-    { "CMS" = "experiments/cms.md" },
-    { "Muon g-2" = "experiments/muon_gm2.md" },
-    { "SPT-3G" = "experiments/spt.md" },
-    { "DUNE" = "experiments/dune.md" },
+  { "Concepts" = [
+    { "Concepts" = "concepts/index.md" },
+    { "What is AD?" = [
+      { "What is AD?" = "what_is_ad/index.md" },
+      { "Transformer-based AD" = "what_is_ad/transformer_ad.md" },
+      { "Baseline Methods" = "what_is_ad/baselines.md" },
+    ]},
+    { "What is Agentic AI?" = [
+      { "What is Agentic AI?" = "what_is_agentic_ai/index.md" },
+      { "RAG" = "what_is_agentic_ai/rag.md" },
+      { "MCP Servers" = "what_is_agentic_ai/mcp_servers.md" },
+      { "Agentic Frameworks" = "what_is_agentic_ai/agentic_frameworks.md" },
+    ]},
   ]},
-  { "What is AD?" = [
-    { "What is AD?" = "what_is_ad/index.md" },
-    { "Transformer-based AD" = "what_is_ad/transformer_ad.md" },
-    { "Baseline Methods" = "what_is_ad/baselines.md" },
+  { "Methodology" = [
+    { "Methodology" = "overview/methodology/index.md" },
+    { "Problem Framing" = "overview/methodology/problem_framing.md" },
+    { "Core Workflow" = "overview/methodology/core_workflow.md" },
+    { "Models & Scoring" = "overview/methodology/models_scoring.md" },
+    { "Repository Overview" = "overview/methodology/repo_overview.md" },
   ]},
-  { "What is Agentic AI?" = [
-    { "What is Agentic AI?" = "what_is_agentic_ai/index.md" },
-    { "RAG" = "what_is_agentic_ai/rag.md" },
-    { "MCP Servers" = "what_is_agentic_ai/mcp_servers.md" },
-    { "Agentic Frameworks" = "what_is_agentic_ai/agentic_frameworks.md" },
+  { "Experimental Results" = [
+    { "Experimental Results" = "experiments/index.md" },
+    { "SPT-3G" = [
+      { "SPT-3G" = "experiments/spt/index.md" },
+      { "Data Loading" = "experiments/spt/data_loading.md" },
+      { "Preprocessing" = "experiments/spt/preprocessing.md" },
+      { "Training" = "experiments/spt/training.md" },
+      { "Histograms" = "experiments/spt/histograms.md" },
+    ]},
+    { "ATLAS" = [
+      { "ATLAS" = "experiments/atlas/index.md" },
+      { "Data Loading" = "experiments/atlas/data_loading.md" },
+      { "Preprocessing" = "experiments/atlas/preprocessing.md" },
+      { "Training" = "experiments/atlas/training.md" },
+      { "Histograms" = "experiments/atlas/histograms.md" },
+    ]},
+    { "Muon g-2" = [
+      { "Muon g-2" = "experiments/muon_gm2/index.md" },
+      { "Data Loading" = "experiments/muon_gm2/data_loading.md" },
+      { "Preprocessing" = "experiments/muon_gm2/preprocessing.md" },
+      { "Training" = "experiments/muon_gm2/training.md" },
+      { "Histograms" = "experiments/muon_gm2/histograms.md" },
+    ]},
   ]},
   { "Technical Docs" = [
     { "Technical Docs" = "technical_docs/index.md" },
-    { "BaseDataset" = "technical_docs/base_dataset.md" },
-    { "YAML-Driven Preprocessing" = "technical_docs/yaml_driven_preprocessing.md" },
+    { "Preprocessing" = [
+      { "Preprocessing" = "technical_docs/preprocessing/index.md" },
+      { "BaseDataset" = "technical_docs/preprocessing/base_dataset.md" },
+      { "Dataset Resolvers" = "technical_docs/preprocessing/dataset_resolvers.md" },
+      { "Dataset Builder" = "technical_docs/preprocessing/dataset_builder.md" },
+    ]},
+    { "Training" = [
+      { "Training" = "technical_docs/training/index.md" },
+      { "Training Pipeline" = "technical_docs/training/training_pipeline.md" },
+    ]},
+    { "Inference" = [
+      { "Inference" = "technical_docs/inference/index.md" },
+      { "Inference Pipeline" = "technical_docs/inference/inference_pipeline.md" },
+    ]},
+    { "Analysis" = [
+      { "Analysis" = "technical_docs/analysis/index.md" },
+      { "Analysis and Scoring" = "technical_docs/analysis/analysis_and_scoring.md" },
+    ]},
+    { "Future Features" = [
+      { "Future Features" = "technical_docs/future_features/index.md" },
+      { "YAML-Driven Preprocessing" = "technical_docs/future_features/yaml_driven_preprocessing.md" },
+    ]},
   ]},
   { "Meeting Notes" = [
     { "Meeting Notes" = "meeting_notes/index.md" },
-    { "Hardware-Aware AI Hackathon – June 15, 2026" = "meeting_notes/20260615_hackathon/index.md" },
+    { "Hardware-Aware AI Hackathon – June 15, 2026" = [
+      { "Hardware-Aware AI Hackathon – June 15, 2026" = "meeting_notes/20260615_hackathon/index.md" },
+      { "ATOM: Anomaly-detection on Time-series for Operation Monitoring" = "meeting_notes/20260615_hackathon/Joaquin_Atom_Notes.md" },
+      { "Multi-Agent Systems for Scientific Analysis" = "meeting_notes/20260615_hackathon/Azton_Agentic_Notes.md" },
+      { "CMS Next-Gen DQM: WisDQM & DQM Vision" = "meeting_notes/20260615_hackathon/CMS_DQM_Notes.md" },
+      { "Anomaly Detection on SPT Observation Data" = "meeting_notes/20260615_hackathon/SPT_Anomaly_Notes.md" },
+    ]},
   ]},
 ]
 
